@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'iran';
+    src: url(IRANSansWeb_Light.woff) format("woff");
+}
+body{
+    font-family: 'iran' !important;
+}
+/* -------------------- Table of contents --------------------
+
+1. Sections
+    1.1. Intro
+    1.1. Counters
+    1.1. Subscribe
+    1.1. SignUp
+
+----------------------- Table of content -------------------- */
+
+/* --------------------
+   -------------------- Intro -------------------- */
+.b-intro__background { background-image: url('../images/slide-2.jpg'); }
+
+.b-intro__slider .b-slider_item__first .b-intro_wrapper { background-image: url('../images/slide-5.jpg'); }
+.b-intro__slider .b-slider_item__second .b-intro_wrapper { background-image: url('../images/slide-5.jpg'); }
+
+.m-touch .b-intro__video { background-image: url('../images/amfi.jpg'); }
+
+/* --------------------
+   -------------------- Counters -------------------- */
+.b-counters {
+    background: url('../images/amfi.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* --------------------
+   -------------------- Subscribe -------------------- */
+.b-subscribe {
+    background: url('../images/amfi.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* --------------------
+   -------------------- SignUp -------------------- */
+.b-signUp {
+    background: url('../images/amfi.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.b-header_nav{
+    direction: rtl;
+}
+
+.rtl{
+    direction: rtl;
+}
+.custom-logo img{
+    width: 48%;
+    margin-top: -15px;
+}
+.custom_h{
+    position: relative;
+    direction: rtl;
+}
+.custom_h h3{
+    direction: rtl;
+    float: right;
+    position: absolute;
+    left: 0;
+    right: -400px;
+    top: +25px;
+    font-size: 24px;
+}

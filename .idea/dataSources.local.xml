@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="MySQL - isspc_web@localhost" uuid="7aa5e372-1669-41d1-9d35-6b132767ba87">
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <introspection-scope>isspc_web:</introspection-scope>
+      <resolve-scope>isspc_web:</resolve-scope>
+    </data-source>
+  </component>
+</project>
